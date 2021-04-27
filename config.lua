@@ -13,9 +13,12 @@ Config.Weapons = {
 
     -- Handguns
     {weapon = 'WEAPON_PISTOL', item = 'pistol', ammoItem = 'ammo_pistol'},
+    {weapon = 'WEAPON_PISTOL_MK2', item = 'pistol_mk2', ammoItem = 'ammo_pistol'},
     {weapon = 'WEAPON_COMBATPISTOL', item = 'combatpistol', ammoItem = 'ammo_pistol'},
     {weapon = 'WEAPON_STUNGUN', item = 'stungun', ammoItem = ''},
     {weapon = 'WEAPON_PISTOL50', item = 'pistol50', ammoItem = 'ammo_pistol'},
+    {weapon = 'WEAPON_SNSPISTOL', item = 'snspistol', ammoItem = 'ammo_pistol'},
+    {weapon = 'WEAPON_SNSPISTOL_MK2', item = 'snspistol_mk2', ammoItem = 'ammo_pistol'},
     {weapon = 'WEAPON_VINTAGEPISTOL', item = 'vintagepistol', ammoItem = 'ammo_pistol'},
     {weapon = 'WEAPON_HEAVYPISTOL', item = 'heavypistol', ammoItem = 'ammo_pistol'},
     {weapon = 'WEAPON_REVOLVER', item = 'revolver', ammoItem = 'ammo_pistol'},
@@ -23,6 +26,7 @@ Config.Weapons = {
     -- Submachine guns
     {weapon = 'WEAPON_MICROSMG', item = 'microsmg', ammoItem = 'ammo_smg'},
     {weapon = 'WEAPON_SMG', item = 'smg', ammoItem = 'ammo_smg'},
+    {weapon = 'WEAPON_SMG_MK2', item = 'smg_mk2', ammoItem = 'ammo_smg'},
     {weapon = 'WEAPON_ASSAULTSMG', item = 'assaultsmg', ammoItem = 'ammo_smg'},
     {weapon = 'WEAPON_COMBATPDW', item = 'combatpdw', ammoItem = 'ammo_smg'},
     {weapon = 'WEAPON_MACHINEPISTOL', item = 'machinepistol', ammoItem = 'ammo_smg'},
@@ -30,12 +34,15 @@ Config.Weapons = {
 
     -- Shotguns
     {weapon = 'WEAPON_PUMPSHOTGUN', item = 'pumpshotgun', ammoItem = 'ammo_shotgun'},
+    {weapon = 'WEAPON_PUMPSHOTGUN_MK2', item = 'pumpshotgun_mk2', ammoItem = 'ammo_shotgun'},
     {weapon = 'WEAPON_SAWNOFFSHOTGUN', item = 'sawnoffshotgun', ammoItem = 'ammo_shotgun'},
     {weapon = 'WEAPON_COMBATSHOTGUN', item = 'combatshotgun', ammoItem = 'ammo_shotgun'},
 
     -- Assault Rifle 
     {weapon = 'WEAPON_ASSAULTRIFLE', item = 'assaultrifle', ammoItem = 'ammo_rifle'},
+    {weapon = 'WEAPON_ASSAULTRIFLE_MK2', item = 'assaultrifle_mk2', ammoItem = 'ammo_rifle'},
     {weapon = 'WEAPON_CARBINERIFLE', item = 'carbinerifle', ammoItem = 'ammo_rifle'},
+    {weapon = 'WEAPON_CARBINERIFLE_MK2', item = 'carbinerifle_mk2', ammoItem = 'ammo_rifle'},
     {weapon = 'WEAPON_SPECIALCARBINE', item = 'specialcarbine', ammoItem = 'ammo_rifle'},
     {weapon = 'WEAPON_BULLPUPRIFLE', item = 'bullpuprifle', ammoItem = 'ammo_rifle'},
     {weapon = 'WEAPON_COMPACTRIFLE', item = 'compactrifle', ammoItem = 'ammo_rifle'},
@@ -51,6 +58,7 @@ Config.Weapons = {
 
     -- Throwables
     {weapon = 'WEAPON_GRENADE', item = 'grenade', ammoItem = 'grenade'},
+    {weapon = 'WEAPON_STICKYBOMB', item = 'stickybomb', ammoItem = 'stickybomb'},
     {weapon = 'WEAPON_BZGAS', item = 'bzgas', ammoItem = 'bzgas'},
     {weapon = 'WEAPON_MOLOTOV', item = 'molotov', ammoItem = 'molotov'},
 }
